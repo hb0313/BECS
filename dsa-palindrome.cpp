@@ -34,7 +34,7 @@ void palin(char str[])
     if(count == strlen(str)) 
         cout<<"Palindrome"<<endl;
     else 
-        cout<<"NOT a Palindrome!!!"<<endl;
+        cout<<"NOT a Palindrome!!"<<endl;
 }
 int main() {
     char str[size];
