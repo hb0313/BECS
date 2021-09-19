@@ -2,16 +2,18 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ main ]
+      branches: [ main ]
   pull_request:
-    branches: [ main ]
+      branches: [ main ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Cpp_Builder
-      run: gcc -Wall dsa-studentRecord.cpp
+  build-and-test:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - name: install cppunit
+      run: sudo apt install -y libcppunit-dev
+      - name: configure
+      run: ./configure
+      - name: make
+      run: gcc -Wall dsa-stringPalindrome.cpp
