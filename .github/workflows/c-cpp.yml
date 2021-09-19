@@ -7,11 +7,11 @@ on:
       branches: [ main ]
 
 jobs:
-  build-and-test:
+  build:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v2
       - name: install cppunit
         run: sudo apt install -y libcppunit-dev
-      - name: make
-        run: gcc -Wall dsa-stringPalindrome.cpp
+      - name: CppBuild
+        run: g++ -Wall dsa-stringPalindrome.cpp
