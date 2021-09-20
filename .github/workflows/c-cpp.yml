@@ -38,11 +38,11 @@ jobs:
                         dsa-stringOperation.cpp
                         dsa-stringPalindrome.cpp
                         dsa-studentRecord.cpp
-                        dsa-threadedBinaryTree.c
+                        dsa-threadedBinaryTree.cpp
                         oop-arrayOperations.cpp
-                        oop-calculatorOperations
+                        oop-calculatorOperations.cpp
                         oop-classIntro.cpp
-                        oop-complexNumberOperati
+                        oop-complexNumberOperations.cpp
                         oop-constructorDemo.cpp
                         oop-multipleInheritance.cpp
                         oop-stackAndqueue.cpp
