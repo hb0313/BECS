@@ -14,4 +14,4 @@ jobs:
       - name: install cppunit
         run: sudo apt install -y libcppunit-dev
       - name: CppBuild
-        run: g++ -Wall dsa-stringPalindrome.cpp
+        run: make
