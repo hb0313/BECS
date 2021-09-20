@@ -1,6 +1,5 @@
 #include <iostream>
-
-#include<stdlib.h>ss
+#include<stdlib.h>
 
 using namespace std;
 class CppArray {
