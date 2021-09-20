@@ -17,7 +17,6 @@ jobs:
         run: gcc -Wall oop-fileHandling.cpp 
                         dsa-binaryOperationIterations.cpp
                         oop-fileHandling.cpp
-                        cg-DDAandBresenhams.c
                         dsa-binaryOperations.cpp
                         dsa-binarySearch.cpp
                         dsa-binarySearchTree.cpp
