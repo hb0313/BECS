@@ -1,4 +1,4 @@
-name: C/C++ CI
+                name: C/C++ CI
 
 on:
   push:
@@ -14,4 +14,36 @@ jobs:
       - name: install cppunit
         run: sudo apt install -y libcppunit-dev
       - name: CppBuild
-        run: make
+        run: gcc -Wall oop-fileHandling.cpp 
+                        dsa-binaryOperationIterations.cpp
+                        oop-fileHandling.cpp
+                        cg-DDAandBresenhams.c
+                        dsa-binaryOperationIteratation.cpp
+                        dsa-binaryOperations.cpp
+                        dsa-binarySearch.cpp
+                        dsa-binarySearchTree.cpp
+                        dsa-bubbleSort.cpp
+                        dsa-deQueueOperations.cpp
+                        dsa-dictionaryBST.cpp
+                        dsa-fibonacciSeries.cpp
+                        dsa-infixTopostfix.cpp
+                        dsa-martixOperations.cpp
+                        dsa-palindrome.cpp
+                        dsa-primsMST.cpp
+                        dsa-queueOperations.cpp
+                        dsa-quickSort.cpp
+                        dsa-selectionSort.cpp
+                        dsa-setOperations.cpp
+                        dsa-singlyLinkedList.cpp
+                        dsa-stringOperation.cpp
+                        dsa-stringPalindrome.cpp
+                        dsa-studentRecord.cpp
+                        dsa-threadedBinaryTree.c
+                        oop-arrayOperations.cpp
+                        oop-calculatorOperations
+                        oop-classIntro.cpp
+                        oop-complexNumberOperati
+                        oop-constructorDemo.cpp
+                        oop-multipleInheritance.cpp
+                        oop-stackAndqueue.cpp
+                        oop-templateFunction.cpp
